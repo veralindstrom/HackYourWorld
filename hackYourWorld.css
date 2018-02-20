@@ -1,0 +1,69 @@
+body{
+	background-color: 54d17a;
+	
+}
+ h1 {
+ 	font-family: sans-serif;
+ 	color: white;
+ 	
+ }
+
+ 
+ .search {
+	text-align: left;
+ 	padding-left: 180px;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+}
+ button {
+ 	background: #34b15a;
+ 	color: white;
+ 	position: absolute;
+ 	top: 15%;
+ 	right: 20%;
+ 	width: 90px;
+ 	height: 90px;
+ 	border-radius: 50%;
+ 	border-color: white;
+ 
+}
+ button:focus {
+ 	outline: none;
+ }
+ 
+ input {
+	width: 530px;
+	height: 50px;
+	font-size: 30px;
+
+}
+
+ .kalender {
+	width: 178px;
+	border: dotted;
+	border-color: white;
+	color: white;
+	padding-bottom: 245px;
+}
+
+ th, td {
+	border: dotted;
+	border-color: white;
+	
+	
+}
+
+ table {
+	background: transparent;
+	border: none;
+	border-spacing: 15px;
+}
+
+ .map {
+ 	height: 500px;
+ 	width: 1200px;
+ 	margin: auto;
+ 	background-color: black;
+ 	
+ }
+

@@ -1,0 +1,42 @@
+<!doctype>
+<html>
+<head>
+<link rel="stylesheet" href="hackYourWorld.css">
+
+<body>
+
+</head>
+<table style="width: 100%">
+<tr>
+	<th style="vertical-align: top;">
+
+	<div class="search">
+	<h1>Från:</h1>
+	 <div id="locationField">
+	      <input id="autocomplete" name="adress" placeholder="Enter your address"
+	             onFocus="geolocate()" type="text"></input>
+	    </div>
+
+	<button id="submit"> Vidare </button>
+
+	</div>
+<br>
+	<div class="map">
+
+	</div>
+<br></th>
+
+</tr>
+</table>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="hackYourWorld.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD03OdZR7OBG171qllAN18zsxihgPvM9yI
+&libraries=places&callback=initAutocomplete"
+		 async defer></script>
+
+
+<body>
+</html>
+
